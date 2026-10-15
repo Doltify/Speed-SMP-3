@@ -1,0 +1,16 @@
+name: SpeedSMP
+version: '${version}'
+main: com.speedsmp.SpeedSMP
+api-version: '1.21'
+authors: [Aiman]
+description: Gain or lose base movement speed through PvP kills and deaths.
+
+commands:
+  speedsmp:
+    description: SpeedSMP admin command
+    usage: /speedsmp <withdraw | reset <player> | get <player> | limits | setcount <item> <n>>
+
+permissions:
+  speedsmp.admin:
+    description: Allows use of /speedsmp
+    default: op
